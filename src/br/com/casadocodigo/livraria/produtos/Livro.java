@@ -100,5 +100,12 @@ public abstract class Livro implements Produto {
 //		}
 //		System.out.println("--");
 //	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if(!(obj instanceof Autor)) return false;
+		Autor outro = (Autor) obj;
+		return this.nome.equals(outro.getNome());
+	}
 
 }
