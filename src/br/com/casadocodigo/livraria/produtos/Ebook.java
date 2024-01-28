@@ -28,4 +28,9 @@ public class Ebook extends Livro implements Promocional{
 		System.out.println("aplicando desconto no LivroFisico");
 		return true;
 	}
+	
+	@Override
+	public String toString() {
+		return "Eu sou um Ebook";
+	}
 }

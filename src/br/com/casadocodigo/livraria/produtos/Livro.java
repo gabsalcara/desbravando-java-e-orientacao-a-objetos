@@ -88,5 +88,17 @@ public abstract class Livro implements Produto {
 
 	protected abstract boolean aplicaDescontoDe(double porcentagem);
 
+//	@Override
+//	public void toString() {
+//		System.out.println("Nome: " + nome);
+//		System.out.println("Descrição: " + descricao);
+//		System.out.println("Valor: " + valor);
+//		System.out.println("ISBN: " + isbn);
+//		
+//		if(this.temAutor()) {
+//			autor.toString();
+//		}
+//		System.out.println("--");
+//	}
 
 }

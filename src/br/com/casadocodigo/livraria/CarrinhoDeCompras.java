@@ -14,9 +14,31 @@ public class CarrinhoDeCompras {
 		contador++;
 		this.total += produto.getValor();
 	}
-	
+
 	public double getTotal() {
 		return total;
 	}
+
+	public void setTotal(double total) {
+		this.total = total;
+	}
+
+	public Produto[] getProdutos() {
+		return produtos;
+	}
+
+	public void setProdutos(Produto[] produtos) {
+		this.produtos = produtos;
+	}
+
+	public int getContador() {
+		return contador;
+	}
+
+	public void setContador(int contador) {
+		this.contador = contador;
+	}
+	
+	
 
 }
