@@ -102,6 +102,11 @@ public abstract class Livro implements Produto {
 //	}
 	
 	@Override
+	public int compareTo(Produto outro) {
+		return (int) (this.getValor() - outro.getValor());
+	}
+	
+	@Override
 	public boolean equals(Object obj) {
 		if(!(obj instanceof Autor)) return false;
 		Autor outro = (Autor) obj;
